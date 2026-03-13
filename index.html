@@ -29,16 +29,23 @@
         "priceRange": "$$",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "401 Park Ave S",
-            "addressLocality": "New York",
-            "addressRegion": "NY",
+            "streetAddress": "100 Corporate Drive",
+            "addressLocality": "Mahwah",
+            "addressRegion": "NJ",
+            "postalCode": "07430",
             "addressCountry": "US"
         },
         "areaServed": [
             {"@type": "City", "name": "Hackensack"},
             {"@type": "City", "name": "Paramus"},
             {"@type": "City", "name": "Fort Lee"},
-            {"@type": "City", "name": "Englewood"}
+            {"@type": "City", "name": "Teaneck"},
+            {"@type": "City", "name": "Englewood"},
+            {"@type": "City", "name": "Ridgewood"},
+            {"@type": "City", "name": "Fair Lawn"},
+            {"@type": "City", "name": "Mahwah"},
+            {"@type": "City", "name": "Ramsey"},
+            {"@type": "City", "name": "Wyckoff"}
         ],
         "aggregateRating": {
             "@type": "AggregateRating",
@@ -661,7 +668,7 @@
     <section class="hero">
         <div class="container">
             <h1>Whirlpool Appliance Repair Service of New York</h1>
-            <p>Premium Service • Factory-Trained Technicians • Serving Hackensack, Paramus, Fort Lee and Englewood</p>
+            <p>Premium Service • Factory-Trained Technicians • Serving All Bergen County</p>
             <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
                 <button class="btn" id="heroCallNow">Schedule Your Repair</button>
                 <button class="btn modal-trigger" data-modal="reviewsModal" style="background: transparent; border: 2px solid white;">★ Read Reviews</button>
@@ -1117,7 +1124,7 @@
         <div class="container">
             <!-- Borough Map Cards -->
             <section class="borough-map-section">
-                <h2>New York City Service Areas</h2>
+                <h2>Bergen County Service Areas</h2>
                 <p>Proudly Serving 4 Boroughs with Same-Day Whirlpool Appliance Repair</p>
                 <div class="borough-cards-grid">
                     <div class="borough-card" id="borough-manhattan">
@@ -1127,7 +1134,7 @@
                                 <circle cx="12" cy="12" r="5" fill="#fff"/>
                             </svg>
                         </div>
-                        <h3>Hackensack, NY</h3>
+                        <h3>Hackensack, NJ</h3>
                         <p>Serving All Hackensack Neighborhoods</p>
                         <a href="https://www.google.com/maps/place/Hackensack,+New+York,+NY" target="_blank" rel="noopener" class="map-btn">View on Google Maps →</a>
                     </div>
@@ -1168,10 +1175,10 @@
             </section>
 
             <section id="sa-service-areas">
-                <h2>Service Areas – New York City</h2>
+                <h2>Service Areas – Bergen County NJ</h2>
                 <p>We proudly serve <strong>Hackensack, Paramus, Fort Lee and Teaneck</strong> with fast, reliable, same-day Whirlpool appliance repair.</p>
                 <div class="sa-dropdown-container">
-                    <button class="sa-dropdown-button" id="saToggleBtn">View All New York Service Areas</button>
+                    <button class="sa-dropdown-button" id="saToggleBtn">View All Bergen County Service Areas</button>
                     <div class="sa-dropdown-content" id="saDropdownContent">
                         <div class="sa-borough-tabs" id="saBoroughTabs">
                             <button class="sa-borough-tab active" data-borough="0">Hackensack</button>
@@ -1214,12 +1221,12 @@
                                     <li onclick="this.classList.toggle('show-zip')"><h3>Little Italy</h3><div class="zip-code">ZIP: 10012, 10013</div></li>
                                     <li onclick="this.classList.toggle('show-zip')"><h3>Lower East Side</h3><div class="zip-code">ZIP: 10002</div></li>
                                     <li onclick="this.classList.toggle('show-zip')"><h3>Madison Square</h3><div class="zip-code">ZIP: 10010, 10016</div></li>
-                                    <li onclick="this.classList.toggle('show-zip')"><h3>Hackensack Valley</h3><div class="zip-code">ZIP: 10025</div></li>
-                                    <li onclick="this.classList.toggle('show-zip')"><h3>Hackensackville</h3><div class="zip-code">ZIP: 10027</div></li>
+                                    <li onclick="this.classList.toggle('show-zip')"><h3>Downtown Hackensack</h3><div class="zip-code">ZIP: 07601</div></li>
+                                    <li onclick="this.classList.toggle('show-zip')"><h3>University District</h3><div class="zip-code">ZIP: 07601</div></li>
                                     <li onclick="this.classList.toggle('show-zip')"><h3>Marble Hill</h3><div class="zip-code">ZIP: 10463</div></li>
                                     <li onclick="this.classList.toggle('show-zip')"><h3>Midtown East</h3><div class="zip-code">ZIP: 10017, 10022, 10055</div></li>
                                     <li onclick="this.classList.toggle('show-zip')"><h3>Midtown West</h3><div class="zip-code">ZIP: 10019, 10036</div></li>
-                                    <li onclick="this.classList.toggle('show-zip')"><h3>Morningside Heights</h3><div class="zip-code">ZIP: 10025, 10027</div></li>
+                                    <li onclick="this.classList.toggle('show-zip')"><h3>Morningside Heights</h3><div class="zip-code">ZIP: 07601, 10027</div></li>
                                     <li onclick="this.classList.toggle('show-zip')"><h3>Murray Hill</h3><div class="zip-code">ZIP: 11358</div></li>
                                     <li onclick="this.classList.toggle('show-zip')"><h3>NoHo</h3><div class="zip-code">ZIP: 10003, 10012</div></li>
                                     <li onclick="this.classList.toggle('show-zip')"><h3>NoMad</h3><div class="zip-code">ZIP: 10010, 10016</div></li>
@@ -1240,7 +1247,7 @@
                                     <li onclick="this.classList.toggle('show-zip')"><h3>Upper East Side</h3><div class="zip-code">ZIP: 10021, 10028, 10065, 10075, 10128</div></li>
                                     <li onclick="this.classList.toggle('show-zip')"><h3>Upper West Side</h3><div class="zip-code">ZIP: 10023, 10024, 10025</div></li>
                                     <li onclick="this.classList.toggle('show-zip')"><h3>Washington Heights</h3><div class="zip-code">ZIP: 10032, 10033, 10040</div></li>
-                                    <li onclick="this.classList.toggle('show-zip')"><h3>West Harlem</h3><div class="zip-code">ZIP: 10027, 10031</div></li>
+                                    <li onclick="this.classList.toggle('show-zip')"><h3>West Harlem</h3><div class="zip-code">ZIP: 07601, 10031</div></li>
                                     <li onclick="this.classList.toggle('show-zip')"><h3>West Village</h3><div class="zip-code">ZIP: 10011, 10014</div></li>
                                     <li onclick="this.classList.toggle('show-zip')"><h3>Yorkville</h3><div class="zip-code">ZIP: 10028, 10128</div></li>
                                     <li onclick="this.classList.toggle('show-zip')"><h3>Bloomingdale</h3><div class="zip-code">ZIP: 10024, 10025</div></li>
@@ -1394,7 +1401,7 @@
                                     <li onclick="this.classList.toggle('show-zip')"><h3>Forest Hills</h3><div class="zip-code">ZIP: 11375</div></li>
                                     <li onclick="this.classList.toggle('show-zip')"><h3>Fresh Meadows</h3><div class="zip-code">ZIP: 11365, 11366</div></li>
                                     <li onclick="this.classList.toggle('show-zip')"><h3>Glen Oaks</h3><div class="zip-code">ZIP: 11004</div></li>
-                                    <li onclick="this.classList.toggle('show-zip')"><h3>Glendale</h3><div class="zip-code">ZIP: 11385</div></li>
+                                    <li onclick="this.classList.toggle('show-zip')"><h3>Glendale</h3><div class="zip-code">ZIP: 07450</div></li>
                                     <li onclick="this.classList.toggle('show-zip')"><h3>Hillcrest</h3><div class="zip-code">ZIP: 11366, 11432</div></li>
                                     <li onclick="this.classList.toggle('show-zip')"><h3>Hollis</h3><div class="zip-code">ZIP: 11423</div></li>
                                     <li><h3>Holliswood</h3></li>
@@ -1413,7 +1420,7 @@
                                     <li onclick="this.classList.toggle('show-zip')"><h3>Fort Lee Village</h3><div class="zip-code">ZIP: 11427, 11428, 11429</div></li>
                                     <li onclick="this.classList.toggle('show-zip')"><h3>Rego Park</h3><div class="zip-code">ZIP: 11374</div></li>
                                     <li onclick="this.classList.toggle('show-zip')"><h3>Richmond Hill</h3><div class="zip-code">ZIP: 11418, 11419</div></li>
-                                    <li onclick="this.classList.toggle('show-zip')"><h3>Ridgewood</h3><div class="zip-code">ZIP: 11385</div></li>
+                                    <li onclick="this.classList.toggle('show-zip')"><h3>Ridgewood</h3><div class="zip-code">ZIP: 07450</div></li>
                                     <li onclick="this.classList.toggle('show-zip')"><h3>Rockaway Beach</h3><div class="zip-code">ZIP: 11693</div></li>
                                     <li onclick="this.classList.toggle('show-zip')"><h3>Rockaway Park</h3><div class="zip-code">ZIP: 11694</div></li>
                                     <li onclick="this.classList.toggle('show-zip')"><h3>Rosedale</h3><div class="zip-code">ZIP: 11422</div></li>
@@ -1467,7 +1474,7 @@
                             </select>
                         </div>
                         <div class="cf-form-group"><label for="cfPhone">Phone *</label><input type="tel" id="cfPhone" name="phone" placeholder="(212) 555-1234" required pattern="[0-9]{10}"></div>
-                        <div class="cf-form-group"><label for="cfAddress">Address *</label><textarea id="cfAddress" name="address" placeholder="123 Main St, Hackensack, NY 10001" required></textarea></div>
+                        <div class="cf-form-group"><label for="cfAddress">Address *</label><textarea id="cfAddress" name="address" placeholder="123 Main St, Hackensack, NJ 10001" required></textarea></div>
                         <div class="cf-form-group"><label for="cfMessage">Describe the Issue *</label><textarea id="cfMessage" name="message" placeholder="Please describe the problem with your appliance..." required></textarea></div>
                         <button type="submit" class="cf-form-button">Submit Request</button>
                     </form>
@@ -1553,7 +1560,7 @@
             <p>Welcome to Whirlpool Appliance Repair Bergen County. By accessing our website or using our services, you agree to be bound by these Terms of Service.</p>
             
             <h3>Services</h3>
-            <p>We provide professional appliance repair services for Whirlpool brand appliances in the New York City metropolitan area, including Hackensack, Paramus, Fort Lee, and the Englewood. Our services include diagnosis, repair, and maintenance of various Whirlpool appliances.</p>
+            <p>We provide professional appliance repair services for Whirlpool brand appliances in the Bergen County, New Jersey area, including Hackensack, Paramus, Fort Lee, and the Englewood. Our services include diagnosis, repair, and maintenance of various Whirlpool appliances.</p>
             
             <h3>Service Appointments</h3>
             <ul>
